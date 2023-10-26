@@ -1,0 +1,53 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Employee;
+import entities.Rectangle;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		int ex;
+		System.out.println("What exercise you want to test? (1, 2, 3) ");
+		ex  = sc.nextInt();
+		
+		if(ex == 1) {
+			Rectangle rectangle = new Rectangle();
+			
+			System.out.println("\nEnter rectangle width and height: ");
+			rectangle.width = sc.nextDouble();
+			rectangle.height = sc.nextDouble();
+			
+			System.out.println();
+			System.out.printf("\nArea: %.2f", rectangle.area());
+			System.out.printf("\nPerimeter: %.2f", rectangle.perimeter());
+			System.out.printf("\nDiagonal: %.2f", rectangle.diagonal());
+			
+			
+		} else if(ex == 2) {
+			Employee employee = new Employee();
+			
+			System.out.println("\nEnter the employee name, gross salary, tax: ");
+			employee.name = sc.nextLine();
+			employee.grossSalary = sc.nextDouble();
+			employee.tax = sc.nextDouble();
+			
+			System.out.println();
+			System.out.printf("\nEmployee: %s, $ %.2f", employee.name, employee.netSalary());
+			
+			
+			
+		} else {
+			
+		}
+		
+		sc.close();
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package application;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Digite a quantidade de linhas e colunas da matriz: ");
+		int n = sc.nextInt();
+		int[][] mat = new int[n][n];
+		
+		for(int i = 0; i < n; i++) {
+			for(int k = 0; k < n; k++) {
+				System.out.printf("Digite um número para a posição %d, %d: ", i, k);
+				mat[i][k] = sc.nextInt();
+			}
+		}
+		
+		sc.close();
+	}
+
+}
