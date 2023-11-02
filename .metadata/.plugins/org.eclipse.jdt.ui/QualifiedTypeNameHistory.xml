@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="entities.Triangle"/>
-    <fullyQualifiedTypeName name="entities.Student"/>
-    <fullyQualifiedTypeName name="util.Calculator"/>
-    <fullyQualifiedTypeName name="entities.account"/>
-    <fullyQualifiedTypeName name="entities.Height"/>
     <fullyQualifiedTypeName name="enities.Rent"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
@@ -58,4 +53,11 @@
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="model.entities.Account"/>
     <fullyQualifiedTypeName name="model.exception.BalanceException"/>
+    <fullyQualifiedTypeName name="boardgame.Position"/>
+    <fullyQualifiedTypeName name="boardgame.Piece"/>
+    <fullyQualifiedTypeName name="chess.Color"/>
+    <fullyQualifiedTypeName name="boardgame.Board"/>
+    <fullyQualifiedTypeName name="chess.ChessMatch"/>
+    <fullyQualifiedTypeName name="javax.swing.UIClientPropertyKey"/>
+    <fullyQualifiedTypeName name="chess.ChessPiece"/>
 </qualifiedTypeNameHistroy>
