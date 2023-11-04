@@ -15,7 +15,6 @@ INDEX VERSION 1.134+C:\temp\ws-eclipse\course_java_nelioAlves\.metadata\.plugins
 3734017170.index
 1957989921.index
 3453313424.index
-1081885981.index
 1773256345.index
 4140975210.index
 2233977881.index
