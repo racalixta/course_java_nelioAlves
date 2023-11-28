@@ -16,7 +16,7 @@ public class Program {
 		
 		Locale.setDefault(Locale.US);
 		List<Product> list = new ArrayList<>();
-		String path = "c:\\temp\\ws-eclipse\\course_java_nelioAlves\\mod19p02.txt";
+		String path = "c:\\temp\\ws-eclipse\\course_java_nelioAlves\\_txt\\mod19p02.txt";
 		
 		try(BufferedReader br = new BufferedReader(new FileReader(path))) {
 			String line = br.readLine();
